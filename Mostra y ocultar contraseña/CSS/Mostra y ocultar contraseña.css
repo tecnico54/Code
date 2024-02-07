@@ -1,0 +1,8 @@
+.M{
+    font-size: 15px;
+    color: black;
+    background-color: white;
+    padding-bottom: 3px;
+    transform: translateX(-35px);
+    cursor: pointer;
+}
