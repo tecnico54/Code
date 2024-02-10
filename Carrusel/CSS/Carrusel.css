@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#C{
+    border: 2px solid black;
+    height: 400px;
+    overflow: hidden;
+}
+.Carr{
+    height: 400px;
+    position: relative;
+}
+.Tarjeta{
+    height: 400%;
+}
+.flechas{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#Tarjeta1{
+    background-color: black;
+}
+#Tarjeta2{
+    background-color: white;
+}
+#P{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    font-size: 2em;
+}
