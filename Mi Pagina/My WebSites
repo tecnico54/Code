@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="Diseño/index.css">
+	<link rel="shortcut icon" href="img/Pc Knower.png">
+	<script src="https://kit.fontawesome.com/f61fd6f73a.js" crossorigin="anonymous"></script>
+	<title>¡Aprendizaje Para Compartir!</title>
+</head>
+	<header>
+		<nav>
+					<ul class="menu-horizontal">
+							<a href="index.html"><img src="img/Pc Knower.png"></a>
+							<li><a href="#">Cursos</a>
+								<ul class="menu-vertical">
+								<li><a href="Cursos/curso/Hardware/Hardware.html">Hardware</a></li>	
+								<li><a href="Cursos/curso/Software/Software.html">Software</a></li>	
+							<li><a href="Cursos/curso/Perifericos/Perifericos.html">Perifericos</a></li>
+							</ul>					
+						<li><a href="#">Tutoriales</a>
+							<ul class="menu-vertical">
+						<li><a href="Cursos/curso/Software/Tutoriales/Hardware/H.html">Hardware</a></li>
+						<li><a href="Cursos/curso/Software/Tutoriales/Software/S.html">Software</a></li>
+					</ul></li>
+					<li><a href="Programación/HTML/Menú.html">Programación y otros...</a></li>
+						<li><a href="Cursos/curso/Software/System/tecnico.html">Descargas</a></li>		
+						<li><a href="Herramientas/Tools.html">Herramientas</a></li>
+						<li><a href="Quien Soy/QS.html">Quien Soy</a></li>
+						<li><a target=_blank href="No/NO-DEBES-HACER-ESTO-CON-TU-MAQUINA.html">No hagas esto</a></li>
+			</ul>
+		</li>
+		</nav>
+	</header>
+<body>
+	<br><br><br><br><br><br>
+		<div class="slider-frame">
+        <ul>
+            <li><img src="Cursos/Carrusel/descarga.jpg"></li>
+            <li><img src="Cursos/img/Captura de pantalla 2022-09-16 231809.png"></li>
+            <li><img src="Cursos/img/Pico-ITX-Epia.jpg"></li>
+        </ul>
+    </div>
+	<br><br><br><br><br><br>
+	<legend class="F" id="fecha"></legend>
+	<h1 class="R" id="reloj"></h1>
+	<center>
+		<video controls src="Cursos/videos/intro.mp4"></video>
+	</center>
+	<br>
+	<center>
+		<p><strong>En esta página aprenderas a identificar<br>
+		los diferentes tipos de componentes, como instalarlos,<br>
+		tambien a como ensamblar una pc,<br>
+		dare mantenimiento a la pc y al software<br>
+		y a como solucional cualquier problema.</strong></p>
+	</center>
+	<br><br><br><br><br><br><br><br><br>
+	<table>
+		<td><h1>Cursos</h1>
+		<br>
+		<button><a href="Cursos/curso/Hardware/Hardware.html">Hardware</a></button>
+		<button><a href="Cursos/curso/Software/Software.html">Software</a></button>
+		<button><a href="Cursos/curso/Perifericos/Perifericos.html">Perifericos</a></button>
+		<br>
+		Estos cursos son para<br>
+		apoyarlos en el manejo<br>
+		de su pc, aqui conoceras<br>
+		las diferentes formas<br> 
+		de una pc y como poder<br>
+		controrarlo</td>
+		<td class="T2"><h1>Tutorial</h1>
+		<br>
+		<button><a href="Cursos/curso/Software/Tutoriales/Hardware/H.html">Hardware</a></button>
+		<button><a href="Cursos/curso/Software/Tutoriales/Software/S.html">Software</a></button>
+		<br>
+		Estos tutoriales son para<br>
+		adquirir más conocimiento<br>
+		a la hora de controlar un<br>
+		computador</td>
+		<td class="T3"><h1>Programación y otros...</h1>
+		<br>
+		<button><a href="Programación/HTML/Menú.html">Programación y otros...</a></button>
+		<br>
+		Estos son nuevos cursos para<br>
+		aprender a programar paginas web,<br>
+		aplicaciones o videojuegos.<br>
+		Estos curso no son solo de<br>
+		programación sino que también<br>
+		contiene un curso de medicina,<br>
+		y un curso de offimatica y Ediciones...<br>
+		Estos cursos son un gran<br>
+		apoyo para otros youtubers.</td>
+		<td class="T3"><h1>Descargas</h1>
+		<br>
+		<button><a href="Cursos/curso/Software/System/tecnico.html">Descargas</a></button>
+		<br>
+		Aqui podras descargar programas de<br>
+		analisis de hardware y programas que<br>
+		te serviran, ademas descargaras<br>
+		VideoJuegos, sistemas Operativos<br>
+		y un simulador que te ayudarla<br>
+		a ensamblar</td>
+		<td class="T3"><h1>Herramientas</h1>
+		<br>
+		<button><a href="Herramientas/Tools.html">Herramientas</a></button>
+		<br>
+		Son páginas webs que te podrán<br>
+		ayudar con problemas que tengas<br>
+		en tu dia</td>
+	</table>
+	<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+	<footer>
+		<a target="_blank" href="https://www.instagram.com/knower_tec/">
+			<i class="fa-brands fa-instagram" style="color: #c91db2;"></i>
+		</a>
+		<a class="f" target="_blank" href="https://www.facebook.com/profile.php?id=100094056937932">
+			<i class="fa-brands fa-facebook" style="color: #E2E6EC;"></i>
+		</a>
+		<a class="y" target="_blank" href="https://www.youtube.com/@TecnoValencia/featured">
+			<i class="fa-brands fa-youtube" style="color: #e10e0e;"></i>
+		<a class="T" target="_blank" href="https://www.twitch.tv/knowergamer">
+			<i class="fa-brands fa-twitch"></i>
+		</a>
+		</a>
+		<a class="W" target="_blank" href="https://www.whatsapp.com/channel/0029Va5gUIWKWEKq6tihPX3j">
+		<i class="fa-brands fa-whatsapp" style="color: #09c80d;"></i>
+		</a>
+	</footer>
+</body>
+<script src="Ordenar/index.js"></script>
+<script src="Ordenar/fecha y hora.js"></script>
+</html>
