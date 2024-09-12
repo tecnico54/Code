@@ -1,18 +1,38 @@
-header{
-              color: red;
-              font-family: Impact;
-            }
-            body{
-                text-align: center;
-                color: black;
-                 padding: 5px;
-                 font-size: 18px;
-            }
-            button{
-                text-align: center;
-                color: white;
-                background-color: rgb(15, 211, 32);
-                 padding: 5px;
-                 font-size: 18px;
-                 font-family: Impact;
-            }
+body {
+    font-family: Arial, sans-serif;
+    padding-top: 70px;
+}
+h2{
+    text-align: center;
+    color: white;
+}
+a{
+    color: white;
+}
+.container {
+    width: 300px;
+    margin: 0 auto;
+    padding-top: 50px;
+    background-color: rgba(0, 0, 0, .5);
+    border-radius: 25px;
+    text-align: center;
+}
+    input[type="text"],
+    input[type="password"],
+    input[type="Email"],
+    input[type="submit"] {
+    width: 70%;
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border-radius: 25px;
+}
+    input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 25px;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
