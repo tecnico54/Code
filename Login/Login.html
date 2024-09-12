@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="CSS/Login.css">
-    <title></title>
-</head>
-    <body>
-        <header>Loging</header>
-        <form enctype="text/plain" method="POST" action="index.php">
-            Username:<input type="text" name="user" placeholder="user" minlength="10" required=true><br></br>
-             Password:<input type="password" name="direccion" placeholder="Password" minlength="10" required=true><br></br>
-             Correo:<input type="email" name="correo" placeholder="E-mail" minlength="20" required=true><br></br>
-        <button name="button">Ingresar</button>
-        </form>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="CSS/Login.css">
+        <title>Iniciar Sesión</title> 
+    </head>
+<body background="../Imagenes/Logo.jpg" style="background-repeat: no-repeat; background-attachment: fixed; background-size: cover; background-position: center;">
+    <div class="container">
+        <h2>Iniciar Sesión</h2>
+            <form action="#" name="" method="post" id="loginForm" onsubmit="return validateForm()">
+                <input type="text" id="username" name="nombre" placeholder="Nombre" required=true><br>
+                <input type="password" id="password" name="contraseña" placeholder="Contraseña" required="true"><br>
+                <input class="I" type="submit" name="" value="Iniciar">
+                <br>
+            </form>
+        </body>
 </html>
