@@ -1,0 +1,52 @@
+/* Estilos básicos para el gestor de tareas */
+body {
+    font-family: Arial;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 300px;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+#taskList {
+    list-style-type: none;
+    padding: 0;
+}
+
+#taskList li {
+    background-color: white;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+/* Estilo de la tarea seleccionada */
+#taskList li.selected {
+    background-color: #d1e7dd;
+    border: 2px solid #0f5132;
+}
+
+#deleteButton {
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#deleteButton:hover {
+    background-color: #c82333;
+}
