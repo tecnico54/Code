@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="CSS/Task.css">
+		<title>Tarea</title>
+	</head>
+	<body>
+		<div class="container">
+        	<h1>Gestion de Tareas</h1>
+       <ul id="taskList">
+              <li>
+                <input type="checkbox" class="task-checkbox">
+                <span>Study</span>
+            </li>
+            <li>
+                <input type="checkbox" class="task-checkbox">
+                <span>Tarea 2</span>
+            </li>
+            <li>
+                <input type="checkbox" class="task-checkbox">
+                <span>Tarea 3</span>
+            </li>
+            <li>
+                <input type="checkbox" class="task-checkbox">
+                <span>Tarea 4</span>
+            </li>
+        <ul id="taskList"></ul>
+        <div>
+        	<button id="deleteButton" onclick="deleteSelectedTasks()">Eliminar Tareas Seleccionadas</button>
+        </div>
+    </div>
+	</body>
+	<script src="JavaScript/Task.js"></script>
+</html>
